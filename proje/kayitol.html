@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GİTT</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300,400,500,700,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="assets/images/logo/gittlogo.png">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/lightcase.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        nav {
+
+            margin-top: 50px;
+
+        }
+
+        footer {
+            margin-top: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- search area -->
+    <div class="search-area">
+        <div class="search-input">
+            <div class="search-close">
+                <span></span>
+                <span></span>
+            </div>
+            <form>
+                <input type="text" name="text" placeholder="arama yeri">
+            </form>
+        </div>
+    </div>
+    <!-- search area -->
+
+    <div class="body-wrapper">
+
+
+
+        <header class="header-section d-xl-block d-none">
+            <div class="header-area">
+                <div class="logo">
+                    <a href="index.html"><img src="assets/images/logo/gittlogo.png" alt="logo" height="180px"
+                            width="150px"></a>
+                </div>
+                <div class="main-menu d-none d-xl-block">
+
+                    <div class="top">
+
+                        <ul class="left">
+                            <li>
+                                Çalışma Saatleri : 08:30 - 18:30
+                            </li>
+
+                            <li>
+                                Bize Ulaş : <a href="#">gitt5858@gmail.com</a>
+                            </li>
+                        </ul>
+
+                        <ul class="right">
+                            <li>
+                                <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://tr.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                           
+                            
+                           
+                            <li>
+                                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="menu">
+                        <li>
+                            <a href="index.html">Anasayfa</a>
+
+                        </li>
+                        <li>
+                            <a href="profil.html">Profil</a>
+
+                        </li>
+                        <li>
+                            <a href="hakkımızda.html">Hakkımızda</a>
+
+                        </li>
+                        <li>
+                            <a href="#footer">İletişim</a>
+
+                        </li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </header>
+
+        <nav>
+
+            <div class="container ">
+                <div class="col-md-6">
+
+
+
+
+                    <form onsubmit="signup(event)">
+                        <div class="form-group">
+                            <label for="ad">AD:</label>
+                            <input type="text" class="form-control form-control-sm" id="ad" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="soyad">SOYAD:</label>
+                            <input type="text" class="form-control" id="soyad" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-MAIL:</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="kullaniciadi">KULLANICI ADI:</label>
+                            <input type="text" class="form-control" id="kullaniciadi" required
+                        </div>
+                        <div class="form-group">
+                            <label for="şifre">ŞİFRE:</label>
+                            <input type="password" class="form-control" id="sifre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">TELEFON:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="city">ŞEHİR:</label>
+                            <select class="form-control" id="city" required>
+                                <option value="Adana">Adana</option>
+                                <option value="Adıyaman">Adıyaman</option>
+                                <option value="Afyonkarahisar">Afyonkarahisar</option>
+                                <option value="Ağrı">Ağrı</option>
+                                <option value="Amasya">Amasya</option>
+                                <option value="Ankara">Ankara</option>
+                                <option value="Antalya">Antalya</option>
+                                <option value="Artvin">Artvin</option>
+                                <option value="Aydın">Aydın</option>
+                                <option value="Balıkesir">Balıkesir</option>
+                                <option value="Bilecik">Bilecik</option>
+                                <option value="Bingöl">Bingöl</option>
+                                <option value="Bitlis">Bitlis</option>
+                                <option value="Bolu">Bolu</option>
+                                <option value="Burdur">Burdur</option>
+                                <option value="Bursa">Bursa</option>
+                                <option value="Çanakkale">Çanakkale</option>
+                                <option value="Çankırı">Çankırı</option>
+                                <option value="Çorum">Çorum</option>
+                                <option value="Denizli">Denizli</option>
+                                <option value="Diyarbakır">Diyarbakır</option>
+                                <option value="Edirne">Edirne</option>
+                                <option value="Elazığ">Elazığ</option>
+                                <option value="Erzincan">Erzincan</option>
+                                <option value="Erzurum">Erzurum</option>
+                                <option value="Eskişehir">Eskişehir</option>
+                                <option value="Gaziantep">Gaziantep</option>
+                                <option value="Giresun">Giresun</option>
+                                <option value="Gümüşhane">Gümüşhane</option>
+                                <option value="Hakkâri">Hakkâri</option>
+                                <option value="Hatay">Hatay</option>
+                                <option value="Isparta">Isparta</option>
+                                <option value="Mersin">Mersin</option>
+                                <option value="İstanbul">İstanbul</option>
+                                <option value="İzmir">İzmir</option>
+                                <option value="Kars">Kars</option>
+                                <option value="Kastamonu">Kastamonu</option>
+                                <option value="Kayseri">Kayseri</option>
+                                <option value="Kırklareli">Kırklareli</option>
+                                <option value="Kırşehir">Kırşehir</option>
+                                <option value="Kocaeli">Kocaeli</option>
+                                <option value="Konya">Konya</option>
+                                <option value="Kütahya">Kütahya</option>
+                                <option value="Malatya">Malatya</option>
+                                <option value="Manisa">Manisa</option>
+                                <option value="Kahramanmaraş">Kahramanmaraş</option>
+                                <option value="Mardin">Mardin</option>
+                                <option value="Muğla">Muğla</option>
+                                <option value="Muş">Muş</option>
+                                <option value="Nevşehir">Nevşehir</option>
+                                <option value="Niğde">Niğde</option>
+                                <option value="Ordu">Ordu</option>
+                                <option value="Rize">Rize</option>
+                                <option value="Sakarya">Sakarya</option>
+                                <option value="Samsun">Samsun</option>
+                                <option value="Siirt">Siirt</option>
+                                <option value="Sinop">Sinop</option>
+                                <option value="Sivas">Sivas</option>
+                                <option value="Tekirdağ">Tekirdağ</option>
+                                <option value="Tokat">Tokat</option>
+                                <option value="Trabzon">Trabzon</option>
+                                <option value="Tunceli">Tunceli</option>
+                                <option value="Şanlıurfa">Şanlıurfa</option>
+                                <option value="Uşak">Uşak</option>
+                                <option value="Van">Van</option>
+                                <option value="Yozgat">Yozgat</option>
+                                <option value="Zonguldak">Zonguldak</option>
+                                <option value="Aksaray">Aksaray</option>
+                                <option value="Bayburt">Bayburt</option>
+                                <option value="Karaman">Karaman</option>
+                                <option value="Kırıkkale">Kırıkkale</option>
+                                <option value="Batman">Batman</option>
+                                <option value="Şırnak">Şırnak</option>
+                                <option value="Bartın">Bartın</option>
+                                <option value="Ardahan">Ardahan</option>
+                                <option value="Iğdır">Iğdır</option>
+                                <option value="Yalova">Yalova</option>
+                                <option value="Karabük">Karabük</option>
+                                <option value="Kilis">Kilis</option>
+                                <option value="Osmaniye">Osmaniye</option>
+                                <option value="Düzce">Düzce</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="bio">HAKKINDA</label>
+                            <textarea rows="3" class="form-control form-control-sm" id="bio" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Cinsiyet:</label>
+                            <select id="gender" required>
+                                <option>Erkek</option>
+                                <option>Kadın</option>
+                            </select>
+                        </div>
+                        <div class="form-check">
+                            <label for="kural">
+                                <input type="checkbox" checked="true" id="kural"> Bilgilerimi doğru girdiğimi onaylıyoyrum.
+                            </label>
+                        </div>
+
+
+
+
+
+                        <button class="custom-btn" type="submit" >
+                            KAYIT OL<i class="fas fa-angle-double-right"></i>
+
+                        </button>
+                        <h3>Kayıtlı kullanıcı mısınız <a href="giris.html" class="custom-btn">GİRİŞ<i
+                                    class="fas fa-angle-double-right"></i></a></h3>
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- footer section start here -->
+        <footer class="footer-section">
+            <div id="footer">
+                <div class="footer-top"
+                    style="background-image: url(assets/images/footer/bg-image.jpg); background-position: center bottom; overflow: hidden;">
+                    <div class="container">
+                        <div class="top">
+                            <div class="post-item" data-aos="fade-right" data-aos-duration="700">
+                                <div class="post-thumb">
+                                    <img src="assets/images/footer/icon/01.png" alt="footer">
+                                </div>
+                                <div class="post-content">
+                                    <h6>İletişim</h6>
+                                    <p>444 44 44</p>
+                                </div>
+                            </div>
+                            <div class="post-item" data-aos="fade-up" data-aos-duration="700">
+                                <div class="post-thumb">
+                                    <img src="assets/images/footer/icon/02.png" alt="footer">
+                                </div>
+                                <div class="post-content">
+                                    <h6>Mail</h6>
+                                    <p>gitt5858@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="post-item" data-aos="fade-left" data-aos-duration="700">
+                                <div class="post-thumb">
+                                    <img src="assets/images/footer/icon/03.png" alt="footer">
+                                </div>
+                                <div class="post-content">
+                                    <h6>Adres </h6>
+                                    <p>Sivas Cumhuriyet Üniversitesi 58140 KAMPÜS/SİVAS</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bottom row justify-content-center">
+                            <div class="col-xl-4 col-lg-6 col-12" data-aos="fade-right" data-aos-duration="700">
+                                <div class="bottom-item">
+
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-12" data-aos="fade-up" data-aos-duration="700">
+                                <div class="bottom-item">
+
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-12" data-aos="fade-left" data-aos-duration="700">
+                                <div class="bottom-item">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="section-wrapper">
+                            <div class="left">
+                                <a href="index.html"><img src="assets/images/logo/gittlogo.png" alt="footer-logo"
+                                        height="180px" width="150px"></a>
+                            </div>
+                            <ul class="right">
+                                <li>
+                                    <a class="facebook" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                    <span>Facebook</span>
+                                </li>
+                               
+                                <li>
+                                    <a class="twitter" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                                    <span>Twitter</span>
+                                </li>
+                               
+                                <li>
+                                    <a class="linkedin" href="https://tr.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                    <span>Linkedin</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer section end here -->
+    </div>
+
+    <!-- scroll to top -->
+    <a href="#" class="scrollToTop"><i class="fas fa-angle-up"></i></a>
+    <!-- scroll to top -->
+
+
+
+
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/fontawesome.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/lightcase.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/progress.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/map-custom.js"></script>
+    <script src='assets/js/slick.min.js'></script>
+    <script src="assets/js/theia-sticky-sidebar.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script src="script.js"></script>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+
+</body>
+
+</html>
